@@ -1,0 +1,15 @@
+spring:
+  data:
+    mongodb:
+      authentication-database: admin
+      database: event
+      host: localhost
+      password: password
+      port: 27017
+      username: root
+
+server:
+  port: 8085
+jwt:
+  secretKey: QQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQQ
+  tokenPrefix: Bearer
